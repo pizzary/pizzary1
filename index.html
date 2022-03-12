@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Second Try</title>
-    <table style="background-color:lightblue">
     <style> 
     div
     {
         width:100px;
         height:100px;
         background:red;
-        animation:myfirst 5s; /* Safari and Chrome */
+        -webkit-animation:myfirst 5s; /* Safari and Chrome */
     }
-    @keyframes myfirst /* Safari and Chrome */
+    @-webkit-keyframes myfirst /* Safari and Chrome */
     {
         from {background:red;}
         to {background:yellow;}
