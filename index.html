@@ -12,8 +12,16 @@
         75%  {background: green; left:0px; top:200px;}
         100% {background: red; left:0px; top:0px;}
     }
-    h1{
-        animation:myfirst 100s;
+    @keyframes mysecond
+    {
+        from {opacity:0}
+        to {opacity:100}
+    }
+    div{
+        animation:myfirst 15s infinite;
+    }
+    p{
+        animation:mysecond 2s infinite;
     }
     </style>
 </head>
@@ -23,5 +31,7 @@
     <p>cute</p>
     <p>happy</p>
     <p>muqiuhaoye</p>
+    <p><b>注意:</b> 该实例在 Internet Explorer 9 及更早 IE 版本是无效的。</p>
+<div></div>
 </body>
 </html>
