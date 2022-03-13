@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Second Try</title>
-    <style> 
-    @keyframes myfirst
-    {
-        0%   {background: red;}
-        25%  {background: yellow;}
-        50%  {background: blue;}
-        75%  {background: green;}
-        100% {background: red;}
-    }
-    @keyframes mysecond
-    {
-        from {opacity:0}
-        to {opacity:100}
-    }
-    h1{
+<head> 
+	<meta charset="utf-8"> 
+	<title>Third Try</title>
+	<style> 
+	@keyframes myfirst
+		{
+			0%   {background: red;}
+			25%  {background: yellow;}
+			50%  {background: green;}
+			75%  {background: blue;}
+			100% {background: red;}
+		}
+	@keyframes mysecond
+		{
+			from {opacity:0}
+			to {opacity:100}
+		}
+	h1{
         animation:myfirst 15s infinite;
     }
-    
-    p{
+	p{
         animation:mysecond 2s infinite;
     }
-    </style>
+	</style>
 </head>
-<body bgcolor="lightblue">
-    <img src="QQ20200204-0.png" height="100" width="100">
-    <h1>pizzary</h1>
-    <p>cute</p>
-    <p>happy</p>
-    <p>muqiuhaoye</p>
-<div></div>
+<body bgcolor="white">
+
+<div id="container" style="width:500px">
+
+<div id="header" style="background-color:#FFA500;">
+<h1 style="margin-bottom:0;">pizzary</h1></div>
+
+<div id="menu" style="background-color:pink;height:200px;width:100px;float:left;">
+<b>学习菜单</b><br>
+HTML学习<br>
+CSS学习<br>
+JavaScript学习</div>
+
+<div id="content" style="height:200px;width:400px;float:left;">
+<p>muqiuhaoye</p>
+</div>
+
+<div id="footer" style="background-color:lightblue;clear:both;text-align:center;">
+版权 © pizzary</div>
+
+</div>
+ 
 </body>
 </html>
