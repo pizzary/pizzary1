@@ -24,7 +24,6 @@
         animation:mysecond 2s infinite;
         }
 	</style>
-	<script type="text/javascript" src="0.js"></script>
 	<script>
 	function Check(){
 	    if(document.Form.Name.value=="")
@@ -85,11 +84,10 @@
 	</tr>
         </table>
 	<form action="test" method="post" name="Form" onsubmit="return Check()">
-		<p align="center"><br><br><br><br><br><br><br><br>
-		<input type="text" name="Name" value="姓名" class=describe0 onfocus="Input()" onblur="Verify()"><br><br>
-		<input type="password" name="psword" value="password" class=describe0 onfocus="Input()" onblur="Verify()"><br><br>
-		<br><br>
-		<input type="submit" value="登录" class=describe0></p>
+		<p align="center">
+		<input type="text" name="Name" value="姓名" onfocus="Input()" onblur="Verify()">
+		<input type="password" name="psword" value="password" onfocus="Input()" onblur="Verify()">
+		<input type="submit" value="登录"></p>
 	</form>
 	<div id="footer" style="background-color:lightblue;clear:both;text-align:center;width=100%;">
 	版权 © pizzary</div>
